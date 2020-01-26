@@ -26,3 +26,14 @@ else:
     print()
 
 print(args)
+
+
+# TypeError: 'NoneType' object is not callable
+# TypeError: 'str' object is not callable
+# AttributeError: 'Namespace' object has no attribute 'show'
+#
+# Это максимум, что я смог сделать.
+#
+# 'Namespace' object has no attribute 'show' про эту ошибку написано в интернете, что это баг Pyhton 3, как её решить - я не знаю.
+#
+# :с
