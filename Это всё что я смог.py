@@ -12,7 +12,7 @@ parser.add_argument('-s', "--show", dest="param3")
 
 args = parser.parse_args()
 
-if args.show:
+if args.param3:
     z = input("Введите запрос:")
     if z in book.keys():
         print(book[z])
@@ -20,7 +20,7 @@ if args.show:
         print()
 else:
     print()
-if args.delete:
+if args.param2:
     book.pop(str(input('')), int(input()))
 else:
     print()
